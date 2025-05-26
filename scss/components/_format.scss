@@ -1,0 +1,21 @@
+.format-section {
+    &__title {
+            margin-bottom: 80px;
+        }
+    
+    &__container {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+        }
+    
+    &__list {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 0;
+            color: var(--color-primary-light);
+            align-items: center;
+        }
+}
+
